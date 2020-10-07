@@ -123,8 +123,46 @@ list-style-type: none
 .scrinshots {
     padding: 40px 60px;
 }
+.scrin-list {
+  display: flex;
+  width: 100%;
+  list-style: none;  
+  flex-wrap: wrap;
+}
+.scrin-items {
+    width: 50%;
+    display: flex;
+}
 .reviews {
-    padding: 40px 60px;
+   padding: 40px 0 40px 60px; 
+}
+.comment {
+    width: 483px;
+    height: 121px;
+    margin-left: 50px;
+    background-color: #ccc;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .comment:before {
+    content: "";
+    border: 15px solid transparent;	
+    border-right: 15px solid #ccc;
+    position: absolute;
+    top: 20px;
+    left: -30px;
+  }
+  .com-list {
+    display: flex;
+    width: 100%;
+    list-style: none;  
+    flex-wrap: wrap;
+  }
+  .com-item {
+    width: 50%;
+    display: flex;
+    margin-bottom: 20px;
 }
 .price {
     display: flex;
