@@ -407,6 +407,7 @@ footer {
 line-height: 24px;
 font-weight: 400;
 color: #ffffff;
+
 }
 
 .footer_list_skype::before {
@@ -465,8 +466,18 @@ color: #ffffff;
     padding: 20px 0;
 }
 
+.contacts_link {
+  color: #fff;
+  text-decoration: none;
+  transition: color .3s ease;
+}
+
+.contacts_link:hover {
+  color: #cccccc;
+}
+
 .footer_form {
-    margin: auto;
+  margin-left: 5%;
 }
 
 .social {
